@@ -14,6 +14,7 @@
 		0DC973232702936900CE3153 /* TextTransformerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC973222702936900CE3153 /* TextTransformerTests.swift */; };
 		0DC9732D2702936900CE3153 /* TextTransformerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC9732C2702936900CE3153 /* TextTransformerUITests.swift */; };
 		0DC9732F2702936900CE3153 /* TextTransformerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC9732E2702936900CE3153 /* TextTransformerUITestsLaunchTests.swift */; };
+		0DC9733C2702AAC300CE3153 /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DC9733B2702AAC300CE3153 /* info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		0DC973282702936900CE3153 /* TextTransformerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextTransformerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DC9732C2702936900CE3153 /* TextTransformerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTransformerUITests.swift; sourceTree = "<group>"; };
 		0DC9732E2702936900CE3153 /* TextTransformerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTransformerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0DC9733B2702AAC300CE3153 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		0DC973042702936700CE3153 = {
 			isa = PBXGroup;
 			children = (
+				0DC9733B2702AAC300CE3153 /* info.plist */,
 				0DC9730F2702936700CE3153 /* TextTransformer */,
 				0DC973212702936900CE3153 /* TextTransformerTests */,
 				0DC9732B2702936900CE3153 /* TextTransformerUITests */,
@@ -227,6 +230,7 @@
 			files = (
 				0DC973152702936900CE3153 /* Assets.xcassets in Resources */,
 				0DC973182702936900CE3153 /* Main.storyboard in Resources */,
+				0DC9733C2702AAC300CE3153 /* info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +431,7 @@
 				DEVELOPMENT_TEAM = 4BCFB7K54G;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = /Users/patrickmcmenomy/Projects/MacOS/TextTransformer/info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -454,6 +459,7 @@
 				DEVELOPMENT_TEAM = 4BCFB7K54G;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = /Users/patrickmcmenomy/Projects/MacOS/TextTransformer/info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
